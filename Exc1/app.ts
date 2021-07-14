@@ -21,6 +21,8 @@
 
 enum Role { ADMIN = 5, READ_ONLY, AUTHOR };
 // można przypisać własną wartość enumowi - jakąkolwiek
+// jeste jeszcze type 'any', ale nie warto używać:
+// cały TS traci wtedy swoje zalety
 
 const person = {
     name: 'Obisław',

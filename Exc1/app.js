@@ -25,6 +25,8 @@ var Role;
 })(Role || (Role = {}));
 ;
 // można przypisać własną wartość enumowi - jakąkolwiek
+// jeste jeszcze type 'any', ale nie warto używać:
+// cały TS traci wtedy swoje zalety
 var person = {
     name: 'Obisław',
     age: 33,
