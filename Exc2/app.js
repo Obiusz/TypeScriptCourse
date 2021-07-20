@@ -1,5 +1,5 @@
 "use strict";
-let age;
-age = 34;
-const userName = 'Obiusz Obicki';
-console.log(userName);
+const btn = document.querySelector('button');
+btn.addEventListener('click', () => {
+    console.log('Clicked!');
+});
